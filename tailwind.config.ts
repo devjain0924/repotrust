@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,32 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom theme colors
+				teal: {
+					DEFAULT: '#1ABC9C',
+					light: '#48D1B7',
+					dark: '#16A085'
+				},
+				deepblue: {
+					DEFAULT: '#2C3E50',
+					light: '#34495E',
+					dark: '#1A2530'
+				},
+				warning: {
+					DEFAULT: '#F39C12',
+					light: '#F7B84B',
+					dark: '#D68910'
+				},
+				danger: {
+					DEFAULT: '#E74C3C',
+					light: '#EC7063',
+					dark: '#C0392B'
+				},
+				success: {
+					DEFAULT: '#2ECC71',
+					light: '#58D68D',
+					dark: '#27AE60'
 				}
 			},
 			borderRadius: {
@@ -84,11 +111,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-gentle': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-gentle': 'pulse-gentle 2s ease-in-out infinite'
 			}
 		}
 	},
