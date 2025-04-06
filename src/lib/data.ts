@@ -4,7 +4,7 @@ import { AIModel, ModelFlag, RecentActivity, TrustLevel } from "./types";
 export const MOCK_MODELS: AIModel[] = [
   {
     id: "model-1",
-    name: "GPT-4o",
+    name: "Llama 3.2",
     provider: "OpenAI",
     version: "4.0",
     description: "Advanced language model with multimodal capabilities.",
@@ -44,7 +44,7 @@ export const MOCK_MODELS: AIModel[] = [
   },
   {
     id: "model-2",
-    name: "Claude 3.5",
+    name: "vitAI",
     provider: "Anthropic",
     version: "3.5",
     description: "Harmless, helpful AI assistant with advanced reasoning.",
@@ -84,7 +84,7 @@ export const MOCK_MODELS: AIModel[] = [
   },
   {
     id: "model-3",
-    name: "Gemini Ultra",
+    name: "Gemini",
     provider: "Google",
     version: "1.5",
     description: "Multimodal frontier model with strong reasoning capabilities.",
@@ -124,14 +124,14 @@ export const MOCK_MODELS: AIModel[] = [
   },
   {
     id: "model-4",
-    name: "Llama 3 70B",
+    name: "GPT-3",
     provider: "Meta",
     version: "3.0",
     description: "Open model with strong performance and fewer restrictions.",
     capabilities: ["text", "reasoning", "coding"],
     trustScore: 78,
     trustLevel: "medium",
-    chatUrl: "http://localhost:8001",
+    chatUrl: "http://localhost:8004",
     ratings: {
       accuracy: 85,
       reliability: 82,
@@ -164,14 +164,14 @@ export const MOCK_MODELS: AIModel[] = [
   },
   {
     id: "model-5",
-    name: "DinoAI",
+    name: "jAI",
     provider: "Decentralized Collective",
     version: "1.2",
     description: "Fully open-source model with minimal moderation.",
     capabilities: ["text", "coding"],
     trustScore: 62,
     trustLevel: "low",
-    chatUrl: "http://localhost:8001",
+    chatUrl: "http://localhost:8000",
     ratings: {
       accuracy: 79,
       reliability: 72,
