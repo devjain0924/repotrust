@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# 🧠 RepoTrust
 
-## Project info
+**RepoTrust** is a trust and moderation dashboard for AI models. It tracks trust metrics, user interaction data, flag histories, and reviews across various models like GPT-4o, Claude 3.5, Gemini Ultra, and more.
 
-**URL**: https://lovable.dev/projects/f78c5e51-a8e4-4e55-a7c7-922e3927f1f6
+Each model card includes a **"Launch Chat"** button that links to a separately hosted chatbot interface (e.g., Django apps).
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📦 Features
 
-**Use Lovable**
+- Trust score & capability visualization
+- Active flags and moderation history
+- Ratings breakdown (accuracy, fairness, etc.)
+- Usage statistics per model
+- Recent activities dashboard
+- One-click access to separate chatbot UIs
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f78c5e51-a8e4-4e55-a7c7-922e3927f1f6) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧪 Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React (Vite) + TypeScript + Tailwind CSS
+- **UI Components**: ShadCN, Lucide Icons
+- **Routing**: React Router
+- **Mock Data**: `data.ts` (easily pluggable with API)
+- **Backend (Chatbots)**: Django (Run separately)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### 🧁 Frontend (RepoTrust Dashboard)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+#### 1. Clone the Repo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+git clone https://github.com/devjain0924/repotrust.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+##### 2.Download the requirements.txt file :
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+pip install -r requirements.txt
+
+###### 3.Then run the following code to run all the servers:
+
+cd mp
+python manage.py runserver 8000
+cd mp2
+python manage.py runserver 8002
+cd mp3
+python manage.py runserver 8003
+cd mp4
+python manage.py runserver 8001
+cd mp5
+python manage.py runserver 8004
+
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+####### 4.
+Frontend runs at(along with all the individual backends):
+http://localhost:8080
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f78c5e51-a8e4-4e55-a7c7-922e3927f1f6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
