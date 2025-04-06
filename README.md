@@ -40,18 +40,28 @@ git clone https://github.com/devjain0924/repotrust.git
 pip install -r requirements.txt
 
 ###### 3.Then run the following code to run all the servers:
-
+# Terminal 1
 cd mp
 python manage.py runserver 8000
+
+# Terminal 2
 cd mp2
 python manage.py runserver 8002
+
+# Terminal 3
 cd mp3
 python manage.py runserver 8003
+
+# Terminal 4
 cd mp4
 python manage.py runserver 8001
+
+# Terminal 5
 cd mp5
 python manage.py runserver 8004
 
+# Terminal 6 (Frontend)
+cd repotrust
 npm install
 npm run dev
 
