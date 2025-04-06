@@ -11,6 +11,7 @@ export const MOCK_MODELS: AIModel[] = [
     capabilities: ["text", "images", "reasoning", "coding"],
     trustScore: 92,
     trustLevel: "high",
+    chatUrl: "http://localhost:8002",
     ratings: {
       accuracy: 92,
       reliability: 94,
@@ -50,6 +51,7 @@ export const MOCK_MODELS: AIModel[] = [
     capabilities: ["text", "reasoning", "summarization"],
     trustScore: 88,
     trustLevel: "high",
+    chatUrl: "http://localhost:8001",
     ratings: {
       accuracy: 89,
       reliability: 91,
@@ -89,6 +91,7 @@ export const MOCK_MODELS: AIModel[] = [
     capabilities: ["text", "images", "reasoning", "coding"],
     trustScore: 90,
     trustLevel: "high",
+    chatUrl: "http://localhost:8003",
     ratings: {
       accuracy: 90,
       reliability: 88,
@@ -128,6 +131,7 @@ export const MOCK_MODELS: AIModel[] = [
     capabilities: ["text", "reasoning", "coding"],
     trustScore: 78,
     trustLevel: "medium",
+    chatUrl: "http://localhost:8001",
     ratings: {
       accuracy: 85,
       reliability: 82,
@@ -167,6 +171,7 @@ export const MOCK_MODELS: AIModel[] = [
     capabilities: ["text", "coding"],
     trustScore: 62,
     trustLevel: "low",
+    chatUrl: "http://localhost:8001",
     ratings: {
       accuracy: 79,
       reliability: 72,

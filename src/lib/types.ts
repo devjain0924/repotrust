@@ -31,6 +31,7 @@ export interface AIModel {
   trustScore: number;
   ratings: ModelRating;
   trustLevel: TrustLevel;
+  chatUrl: string;
   totalReviews: number;
   totalInteractions: number;
   totalFlags: number;
